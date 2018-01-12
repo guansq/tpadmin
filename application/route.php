@@ -13,7 +13,7 @@
 // +----------------------------------------------------------------------
 
 /*  测试环境禁止操作路由绑定 */
-think\Route::post([
+/*think\Route::post([
     'admin/index/pass'    => function () {
         return json(['code' => 0, 'msg' => '测试环境禁修改用户密码！']);
     },
@@ -53,12 +53,13 @@ think\Route::post([
     'wechat/menu/edit'    => function () {
         return json(['code' => 0, 'msg' => '测试环境禁止修改微信菜单操作！']);
     },
-]);
+]);*/
 
+/*
 think\Route::get([
     'wechat/menu/cancel' => function () {
         return json(['code' => 0, 'msg' => '测试环境禁止删除微信菜单操作！']);
     },
 ]);
-
+*/
 return [];
